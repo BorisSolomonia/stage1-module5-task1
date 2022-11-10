@@ -27,11 +27,11 @@ public class InterfaceCreatorTest {
         return Stream.of(
                 Arguments.of("ListWithAllEvenValues",
                         new ArrayList<>(Arrays. asList(48, 56, 100, 200, 222)),
-                        new ArrayList<>(Arrays. asList(48, 56, 100, 200, 222, 48, 56, 100, 200, 222))),
+                        new ArrayList<>(Arrays. asList(48, 56, 100, 200, 222))),
 
                 Arguments.of("FromListWithHalfEvenValues",
                         new ArrayList<>(Arrays. asList(48, 13, 100, 5, 222, 3)),
-                        new ArrayList<>(Arrays. asList(48, 13, 100, 5, 222, 3, 48, 100, 222))),
+                        new ArrayList<>(Arrays. asList(48, 13, 100, 5, 222, 3))),
 
                 Arguments.of("FromListWithNoEvenValues",
                         new ArrayList<>(Arrays. asList(1, 13, 101, 5, 223, 3)),
